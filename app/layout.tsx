@@ -1,36 +1,32 @@
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
+import { Inter, Silkscreen } from 'next/font/google';
+import './globals.css';
 
-import { Geist } from "next/font/google";
-
-import { Silkscreen } from "next/font/google";
-
-import "./globals.css";
-
-const geist = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
+const inter = Inter({ 
+  subsets: ['latin'],
+  variable: '--font-sans',
 });
 
+// Silkscreen provides clean 8-bit pixel rendering at both small & large sizes
 const silkscreen = Silkscreen({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-pixel",
+  weight: ['400', '700'],
+  subsets: ['latin'],
+  variable: '--font-pixel',
 });
 
 export const metadata: Metadata = {
-  title: "Yashaswi Priya",
-  description:
-    "Software Engineer building scalable backend systems and polished web experiences.",
+  title: 'Yashaswi Priya - Portfolio',
+  description: 'Software Engineer Portfolio',
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={`${geist.variable} ${silkscreen.variable}`}>
+    <html lang="en" className={`${inter.variable} ${silkscreen.variable}`}>
+      <body className="bg-[#FAF8ED] text-[#1E2B24] font-sans antialiased min-h-screen">
         {children}
       </body>
     </html>

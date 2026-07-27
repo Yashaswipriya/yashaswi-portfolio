@@ -1,76 +1,8 @@
 @import "tailwindcss";
 
-:root {
-  --background: #f8f5ec;
-  --surface: #fffdf8;
-
-  --primary: #19372d;
-  --secondary: #4e5d57;
-
-  --accent: #d9b33b;
-
-  --border: #26463b;
-
-  --muted: #efe9dd;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background: var(--background);
-  color: var(--primary);
-
-  font-family: var(--font-geist-sans);
-
-  overflow-x: hidden;
-}
-
-/* subtle paper texture */
-
-body::before {
-  content: "";
-
-  position: fixed;
-
-  inset: 0;
-
-  pointer-events: none;
-
-  opacity: 0.22;
-
-  background-image:
-      radial-gradient(circle, rgba(38,70,59,.08) 1px, transparent 1px);
-
-  background-size: 22px 22px;
-
-  z-index: -1;
-}
-
-::selection{
-    background:var(--accent);
-    color:var(--primary);
-}
-
-section{
-
-    padding-inline:2rem;
-
-    max-width:1200px;
-
-    margin:auto;
-
-    padding-block:7rem;
-}
-
-@media(max-width:768px){
-
-section{
-
-padding-inline:1.25rem;
-padding-block:5rem;
-
-}
-
+@layer utilities {
+  .font-pixel {
+    font-family: var(--font-pixel), monospace;
+    text-rendering: pixelated;
+  }
 }
