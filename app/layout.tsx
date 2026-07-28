@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Silkscreen } from 'next/font/google';
+import { Inter, Pixelify_Sans, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({ 
@@ -7,9 +7,13 @@ const inter = Inter({
   variable: '--font-sans',
 });
 
-// Silkscreen provides clean 8-bit pixel rendering at both small & large sizes
-const silkscreen = Silkscreen({
-  weight: ['400', '700'],
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-heading',
+});
+
+const pixelifySans = Pixelify_Sans({
+  weight: ['500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-pixel',
 });
@@ -25,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${silkscreen.variable}`}>
+    <html lang="en" className={`${inter.variable} ${spaceGrotesk.variable} ${pixelifySans.variable}`}>
       <body className="bg-[#FAF8ED] text-[#1E2B24] font-sans antialiased min-h-screen">
         {children}
       </body>

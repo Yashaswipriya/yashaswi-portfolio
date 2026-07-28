@@ -2,7 +2,15 @@
 
 @layer utilities {
   .font-pixel {
-    font-family: var(--font-pixel), monospace;
-    text-rendering: pixelated;
+    font-family: var(--font-pixel), sans-serif;
   }
+  .font-heading {
+    font-family: var(--font-heading), sans-serif;
+  }
+}
+
+/* Ensure global smooth layout background */
+body {
+  background-color: #FAF8ED;
+  color: #1E2B24;
 }

@@ -1,5 +1,10 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import Toolkit from "./components/Toolkit";
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Education from './components/Education';
+import Contact from './components/Contact';
 
 export default function Home() {
   return (
@@ -7,6 +12,11 @@ export default function Home() {
       <div>
         <Navbar />
         <Hero />
+        <Education />
+        <Toolkit />
+        <Experience />
+        <Projects />
+        <Contact />
       </div>
 
       {/* Optional bottom corner badge / logo icon from screenshot */}
