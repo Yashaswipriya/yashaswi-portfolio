@@ -40,7 +40,7 @@ export default function Navbar() {
 
         {/* Reusable PixelButton with small padding adjustment for the navbar */}
         <PixelButton 
-          href="#resume" 
+          href="/resume.pdf" 
           variant="outline" 
           className="!px-4 !py-2"
         >

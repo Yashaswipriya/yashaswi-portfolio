@@ -19,7 +19,7 @@ export default function Education() {
       >
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1">
-            <h3 className="font-heading text-xl sm:text-2xl font-extrabold text-[#1E2B24]">
+            <h3 className="font-pixel text-xl sm:text-2xl font-extrabold text-[#1E2B24]">
               INDIAN INSTITUTE OF INFORMATION TECHNOLOGY RANCHI
             </h3>
             {/* College Name Column / Row */}
@@ -41,7 +41,7 @@ export default function Education() {
         {/* Metrics Grid */}
         <div className="flex flex-wrap items-center gap-12">
           <div>
-            <div className="font-heading text-2xl sm:text-3xl font-extrabold text-[#1E2B24]">
+            <div className="font-pixel text-2xl sm:text-3xl font-extrabold text-[#1E2B24]">
               8.17
             </div>
             <div className="text-xs font-bold text-[#71717A] tracking-wider uppercase">
@@ -50,7 +50,7 @@ export default function Education() {
           </div>
 
           <div>
-            <div className="font-heading text-xl sm:text-2xl font-extrabold text-[#1E2B24]">
+            <div className="font-pixel text-xl sm:text-2xl font-extrabold text-[#1E2B24]">
               FINAL YEAR
             </div>
             <div className="text-xs font-bold text-[#71717A] tracking-wider uppercase">
@@ -61,8 +61,9 @@ export default function Education() {
       </div>
 
       {/* Description */}
-      <p className="text-[#1E2B24] font-sans text-base sm:text-lg font-medium leading-relaxed max-w-4xl">
-        Coursework and campus placement prep focused on backend engineering — data structures, systems design, and databases — alongside 600+ DSA problems solved independently.
+      <p className="text-[#1E2B24] font-sans text-base sm:text-lg font-medium leading-relaxed max-w-7xl">
+        <span className="font-bold">Relevant Coursework:</span> Data Structures & Algorithms, Operating Systems, Database Management Systems,
+Object-Oriented Programming, Software Development Life Cycle, Computer Networks
       </p>
     </section>
   );

@@ -8,23 +8,23 @@ export default function Toolkit() {
     },
     {
       category: 'FRONTEND',
-      items: 'React · Next.js · Tailwind CSS · Framer Motion · Radix UI',
+      items: 'React · Next.js · Tailwind CSS · Framer Motion',
     },
     {
       category: 'BACKEND',
-      items: 'Node.js · Express · REST APIs · WebSockets · JWT auth',
+      items: 'Node.js · Express · REST APIs · WebSockets · JWT auth · Redis · BullMQ · OAuth',
     },
     {
       category: 'DATABASES',
-      items: 'PostgreSQL · MongoDB · Redis',
+      items: 'PostgreSQL · MongoDB',
     },
     {
       category: 'DEVOPS & CLOUD',
-      items: 'Docker · GitHub Actions · Vercel · Render',
+      items: 'Docker · Vercel · Render',
     },
     {
       category: 'TOOLS',
-      items: 'Git · Postman · Figma · VS Code',
+      items: 'Git · GitHub · Postman · Figma · VS Code',
     },
   ];
 

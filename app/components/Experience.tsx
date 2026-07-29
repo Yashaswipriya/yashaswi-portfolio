@@ -1,11 +1,11 @@
 export default function Experience() {
   const highlights = [
-    'Shipped 4+ production client websites end to end as the sole developer on each build',
-    'Set up CI/CD pipelines with GitHub → Vercel for continuous deployment',
-    'Owned everything from client requirements to launch, working primarily on the frontend and agency-style delivery',
+    "Built and deployed Illuminora's primary client-acquisition website from design handoff to production",
+    'Delivered 4+ client websites independently, including a real estate listing platform, within one week of design handoff',
+    'Implemented CI/CD pipelines using GitHub and Vercel for automated build and deployment',
   ];
 
-  const tags = ['REACT', 'VERCEL', 'CI/CD'];
+  const tags = ['NEXT.JS', 'TYPESCRIPT', 'VERCEL', 'CI/CD'];
 
   return (
     <section id="experience" className="w-full max-w-7xl mx-auto px-6 py-16 space-y-8">

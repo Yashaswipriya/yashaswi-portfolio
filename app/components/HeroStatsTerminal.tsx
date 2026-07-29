@@ -38,7 +38,7 @@ export default function HeroStatsTerminal() {
                 key={idx}
                 className="flex items-baseline justify-between text-[#1E2B24]"
               >
-                <span className="text-3xl font-bold tracking-tight">
+                <span className="text-4xl font-bold tracking-tight">
                   {stat.value}
                 </span>
                 <span className="text-[13px] text-[#71717A] tracking-widest uppercase">

@@ -14,34 +14,34 @@ export default function Projects() {
     {
       title: 'COLLABX',
       description:
-        'Real-time collaborative editor with WebSockets, Redis pub/sub, and optimistic concurrency control.',
+        'Google Docs style collaborative editor with real-time syncing, Redis pub/sub, and optimistic concurrency control.',
       tags: ['WEBSOCKETS', 'REDIS', 'POSTGRES'],
-      githubUrl: 'https://github.com/yashaswipriya/collabx',
-      liveUrl: 'https://collabx.demo.com',
-    },
-    {
-      title: 'LEGALLENS AI',
-      description:
-        'Gemini-powered legal document analysis with structured JSON prompting and paginated PDF reports.',
-      tags: ['GEMINI', 'MONGODB', 'JWT'],
-      githubUrl: 'https://github.com/yashaswipriya/legallens-ai',
-      liveUrl: 'https://legallens.demo.com',
+      githubUrl: 'https://github.com/Yashaswipriya/CollabX',
+      liveUrl: 'https://collab-x-henna.vercel.app/',
     },
     {
       title: 'WEBHOOK ENGINE',
       description:
-        'Distributed delivery engine with BullMQ retries, exponential backoff, and a dead letter queue.',
-      tags: ['TYPESCRIPT', 'BULLMQ', 'DOCKER'],
-      githubUrl: 'https://github.com/yashaswipriya/webhook-engine',
-      liveUrl: 'https://webhook.demo.com',
+        'Fault-tolerant webhook delivery system with BullMQ retries, exponential backoff, and dead-letter queues.',
+      tags: ['POSTGRES', 'BULLMQ', 'DOCKER'],
+      githubUrl: 'https://github.com/Yashaswipriya/Webhook-Service',
+      liveUrl: 'https://github.com/Yashaswipriya/Webhook-Service',
     },
     {
       title: 'TESTPILOT AI',
       description:
-        'GitHub OAuth-connected tool that browses repos and generates tests with Gemini.',
-      tags: ['NEXT.JS', 'EXPRESS', 'MONGODB'],
-      githubUrl: 'https://github.com/yashaswipriya/testpilot-ai',
-      liveUrl: 'https://testpilot.demo.com',
+        'GitHub-integrated AI tool that analyzes repositories and generates intelligent test cases with Gemini.',
+      tags: ['OAUTH', 'EXPRESS', 'MONGODB'],
+      githubUrl: 'https://github.com/Yashaswipriya/TestPilot-AI',
+      liveUrl: 'https://github.com/Yashaswipriya/TestPilot-AI',
+    },
+    {
+      title: 'LEGALLENS AI',
+      description:
+        'AI legal document analyzer that detects risks, suggests actions, extracts structured insights, and generates PDF reports.',
+      tags: ['GEMINI', 'MONGODB', 'JWT'],
+      githubUrl: 'https://github.com/yashaswipriya/legallens-ai',
+      liveUrl: 'https://legal-lens-ai-tan.vercel.app/',
     },
   ];
 

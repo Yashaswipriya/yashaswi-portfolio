@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
 
         <p className="text-[#1E2B24] text-base sm:text-lg max-w-xl leading-relaxed font-sans font-medium pt-1">
-          I build scalable backend systems, real-time collaborative applications, and polished full-stack products with a focus on clean architecture and developer experience.
+          Building real-time applications, distributed systems, and AI-powered products that emphasize scalability, reliability, and developer experience.
         </p>
 
         {/* Clean, Reusable CTAs */}
@@ -35,7 +35,7 @@ export default function Hero() {
           </PixelButton>
 
           <PixelButton 
-            href="#resume" 
+            href="/resume.pdf" 
             variant="secondary" 
             icon={<Download className="w-4 h-4 stroke-[3]" />}
           >
@@ -43,7 +43,7 @@ export default function Hero() {
           </PixelButton>
 
           <PixelButton 
-            href="https://codolio.com" 
+            href="https://codolio.com/profile/Yashaswi_priya" 
             variant="secondary" 
             isExternal 
             icon={<ExternalLink className="w-4 h-4 stroke-[3]" />}
