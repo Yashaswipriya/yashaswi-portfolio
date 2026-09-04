@@ -20,7 +20,7 @@ export default function Toolkit() {
     },
     {
       category: 'DEVOPS & CLOUD',
-      items: 'Docker · Vercel · Render',
+      items: 'Docker · Vercel · Render · AWS EC2 · Nginx · PM2',
     },
     {
       category: 'TOOLS',

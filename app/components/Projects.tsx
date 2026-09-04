@@ -30,10 +30,10 @@ export default function Projects() {
     {
       title: 'TESTPILOT AI',
       description:
-        'GitHub-integrated AI tool that analyzes repositories and generates intelligent test cases with Gemini.',
-      tags: ['OAUTH', 'EXPRESS', 'MONGODB'],
+        'AI-powered developer tool that turns GitHub source code into framework-aware tests, commits them back to the repository, and keeps a persistent generation history.',
+      tags: ['GITHUB OAUTH', 'AWS EC2', 'MONGODB'],
       githubUrl: 'https://github.com/Yashaswipriya/TestPilot-AI',
-      liveUrl: 'https://github.com/Yashaswipriya/TestPilot-AI',
+      liveUrl: 'https://testpilot-ai.me/',
     },
     {
       title: 'LEGALLENS AI',

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function HeroStatsTerminal() {
   const stats = [
-    { label: 'DSA PROBLEMS SOLVED', value: '600+' },
+    { label: 'DSA PROBLEMS SOLVED', value: '700+' },
     { label: 'REPOSITORIES', value: '25' },
     { label: 'LIVE DEPLOYMENTS', value: '20+' },
     { label: 'DEV INTERNSHIP', value: '1' },
